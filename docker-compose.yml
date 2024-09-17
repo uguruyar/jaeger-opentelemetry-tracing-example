@@ -1,0 +1,6 @@
+﻿services:
+  jaeger-opentelemetry-tracing-example:
+    image: jaeger-opentelemetry-tracing-example
+    build:
+      context: .
+      dockerfile: jaeger-opentelemetry-tracing-example/Dockerfile
